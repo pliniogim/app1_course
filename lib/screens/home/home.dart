@@ -1,5 +1,6 @@
 import 'package:app1_course/constants/colors.dart';
 import 'package:app1_course/screens/home/widget/emoji_text.dart';
+import 'package:app1_course/screens/home/widget/search_input.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -13,7 +14,10 @@ class HomePage extends StatelessWidget {
             child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
-          children: [EmojiText()],
+          children: [
+            EmojiText(),
+            SearchInput(),
+          ],
         )));
   }
 
