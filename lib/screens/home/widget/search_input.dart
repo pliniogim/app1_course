@@ -10,7 +10,7 @@ class SearchInput extends StatelessWidget {
       child: Stack(
         children: [
           Container(
-            margin: EdgeInsets.all(25),
+            margin: const EdgeInsets.all(25),
             decoration: BoxDecoration(
               border: Border.all(
                 color: kFontLight.withOpacity(0.3),
